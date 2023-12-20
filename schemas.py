@@ -1,6 +1,4 @@
-
-# These schemas define the structure of data accepted and returned by the blog app.
-
+# Import the BaseModel class from Pydantic
 from pydantic import BaseModel
 
 # Define Pydantic schema for creating a new blog post
@@ -34,5 +32,3 @@ class CommentResponse(CommentSchema):
 # Define Pydantic schema for the response when creating or retrieving a user
 class UserResponse(UserSchema):
     id: int
-
-
