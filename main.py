@@ -6,6 +6,7 @@ from database import get_db
 from models import BlogPost, User, Comment  # Importing models from models.py
 from schemas import BlogPostCreate, BlogPostResponse  # Importing schemas from schemas.py
 
+
 # Create a FastAPI instance
 app = FastAPI()
 
